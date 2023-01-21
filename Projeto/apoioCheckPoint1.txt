@@ -1,0 +1,16 @@
+-> Relações 1..N , exemplo 1 Admin regista N Pedidos, 
+obriga a ter em Pedidos,uma foreing key de Admin.
+
+-> As entidades são objetos de dados, distintos, que caracterizam algo como
+uma pessoa, uma situação, um lugar, um evento, etc., que tem uma
+existência específica e uma caracterização própria, autónoma, no contexto
+de aplicação do sistema.
+
+->A caracterização das entidades é realizada através de uma definição
+concreta de um conjunto de atributos que acolhe as suas várias
+propriedades.
+
+-> Um relacionamento binário N:M dá origem a uma nova tabela,
+contendo na sua chave primária duas chaves estrangeiras, cada uma
+delas com referência a uma das tabelas envolvidas no relacionamento.
+Exemplo: Pedido_inclui_Medicamento

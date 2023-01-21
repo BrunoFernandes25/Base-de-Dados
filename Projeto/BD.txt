@@ -1,0 +1,13 @@
+Apresentação BD
+
+procedures -> uma coleção de instruções SQL pré-compiladas armazenadas na base de dados que mais tarde podem ser invocadas. 
+  	Úteis para executar tarefas específicas, tarefas que envolvem várias instruções SQL que podem ser agrupadas numa única tarefa.
+
+Vistas -> 	vista é uma tabela virtual cujo conteúdo é definido por uma dada consulta (query), aplicada sobre uma ou mais tabelas (incluindo vistas).
+	As vistas são úteis para suportarem a combinação de dados de diferentes tabelas, simplificando, por exemplo, a imagem
+		que os utilizadores têm sobre a bases de dados ou personalizando a forma como eles a podem ver.
+
+Indices -> Um índice é uma estrutura de dados usada para localizar dados sem verificar todas as linhas em uma tabela para uma determinada consulta. 
+	Os índices ajudam a recuperar dados mais rapidamente. Os índices não são visíveis para os usuários.
+	 Eles ajudam a acelerar as consultas que exigem uma pesquisa
+
